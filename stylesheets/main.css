@@ -15,7 +15,7 @@ html body {
 
 @font-face {
   font-family: "Beef'd";
-  src: url("/fonts/beefd/beefd.ttf");
+  src: url("../fonts/beefd/beefd.ttf");
 }
 
 h1 {
