@@ -6,9 +6,9 @@ $( function() {
   $('#supporter-window').css('z-index', 150);
   $('#partner-window').css('z-index', 140);
   //TO BE USED FOR RANDOM BACKGROUND
-  var colors = ["#EC5958", "#8BCFB7", "#69BAE8", "#F06498", "#B357A1", "#C1A9D2", "#91B0DC"];
-  var num = Math.floor(Math.random() * 7);
-  document.body.style.background = colors[num];
+  // var colors = ["#EC5958", "#8BCFB7", "#69BAE8", "#F06498", "#B357A1", "#C1A9D2", "#91B0DC"];
+  // var num = Math.floor(Math.random() * 7);
+  // document.body.style.background = colors[num];
   
   if ($(window).width() >= 768) {
     $(".window").draggable({ 

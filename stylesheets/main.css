@@ -1,5 +1,5 @@
 html body {
-  background: url(../img/Wallpaper-tile.png); 
+  background: #B8E2EA; 
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
@@ -22,7 +22,7 @@ h1 {
   font-family: "Beef'd", ChicagoFLF, Krungthep, Silom, monospace;
   /*font-weight: 400;*/
   text-align: center;
-  font-size: 18pt;
+  font-size: 24pt;
   line-height: 3;
   color: white;
 }
@@ -56,6 +56,10 @@ h2 {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-device-width : 767px) {
+  h1 {
+  font-size: 14pt;
+  }
+
   .window {
     width: 97%;
     position: relative;
